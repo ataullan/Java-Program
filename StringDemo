@@ -1,0 +1,23 @@
+Java-Program
+==========
+
+class StringDemo{
+    public static void main(String a[]){
+      String str=new String();
+	  String str1="Felight";
+	  String str2=str1.concat("Rocks");
+	  System.out.println(str1);
+	  System.out.println(str2);
+	  System.out.println(new String("Felight Rocks").concat("hgfhffs"));
+	  System.out.println(new String("Felight Rocks").charAt(10));
+	  System.out.println(new String("Felight Rocks").equalsIgnoreCase("Felght Rocks"));
+	   System.out.println(new String("Felight Rocks").length());
+	    System.out.println(new String("Felight Rocks").replace('F','V'));
+		 System.out.println(new String("Felight Rocks").substring(2,7));
+		  System.out.println(new String("Felight Rocks").toLowerCase());
+		   System.out.println(new String("Felight Rocks").toString());
+		    System.out.println(new String("Felight Rocks").concat("hgfhffs"));
+			System.out.println(new String("Felight Rocks").toUpperCase());
+			System.out.println(new String("  Felight Rocks   ").trim());
+	  } 
+	  }

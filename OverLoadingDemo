@@ -1,0 +1,28 @@
+Java-Program
+============
+class Calc
+{
+  public int add(int num1,int num2)
+  {
+  return num1+num2;
+  }
+ public float add(float num1,float num2)
+ {
+  return num1+num2;
+ }
+ public double add(double num1,double num2)
+ {
+ return num1+num2;
+ }
+
+}
+class Overloading
+{
+public static void main(String a[])
+{
+Calc c=new Calc();
+System.out.println("2+ 3"+c.add(2,3));
+System.out.println("2+ 3"+c.add(2.3,3.3));
+System.out.println("2+ 3"+c.add(1.5,3.8));
+}
+}

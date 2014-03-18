@@ -1,0 +1,50 @@
+Java-Program
+============
+
+class Employee
+{
+  String name;
+  int empid;
+  String gender;
+  double salary;
+  String address;
+  Employee()
+  {
+  }
+  Employee(String name,int empid,String gender,double salary,String address)
+  {
+       this.name=name;
+       this.empid=empid;
+      this.gender=gender;
+       this.salary=salary;
+      this.address=address;  
+  
+  }
+  void display()
+  {
+  System.out.println("name ="+name);
+  System.out.println("empid ="+empid);
+  System.out.println("gender ="+gender);
+  System.out.println("salary ="+salary);
+  System.out.println("address ="+address);
+ } 
+ }
+
+class app
+{
+public static void main(String a[])
+{
+Employee e1=new Employee("ata",29,"male",20000,"belgaum");
+Employee e2=new Employee("rajani",28,"female",20000,"chikodi");
+Employee e3=new Employee("vilas",42,"male",30000,"gadag");
+Employee e4=new Employee("tousif",53,"male",90000,"mundaragi");
+Employee e5=new Employee("savita",42,"female",60000,"bagalkot");
+
+
+e1.display();
+e2.display();
+e3.display();
+e4.display();
+e5.display();
+}
+}

@@ -1,0 +1,28 @@
+Java-Program
+============
+
+class Father{
+ 
+ String homeOne="Sanaulla";
+  boolean smokes;
+   String  badBehaivior(int money){
+   
+   smokes=true;
+   if(smokes=true){
+   money--;
+   }
+   return "pain";
+   }
+}
+public class Son extends Father1
+{
+
+}
+ class Test11{
+
+public static void main(String a[]){
+
+Son ob=new Son();
+ System.out.println(""+ob.badBehaivior(1000));
+}
+}

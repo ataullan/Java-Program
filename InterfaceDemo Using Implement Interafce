@@ -1,0 +1,56 @@
+Java-Program
+============
+interface Flyable{
+    void start();
+    void fly();
+    void stop();
+  
+}  
+class Aeroplane implements Flyable
+{
+   public void start(){
+   System.out.println("hi ashwini");
+   
+   }
+   public void fly(){
+   System.out.println("hi naaz");
+    }
+	public void stop(){
+	System.out.println("i hate u");
+	
+	}
+}
+class Helicopter implements Flyable
+{
+   public void start(){
+   System.out.println("hi ashwini");
+   
+   }
+   public void fly(){
+   System.out.println("hi naaz");
+    }
+	public void stop(){
+	System.out.println("i hate u");
+	
+	}
+}
+
+
+
+class Fly1
+{
+public static void main(String a[])
+{
+Aeroplane a1=new Aeroplane();
+a1.start();
+
+a1.fly();
+a1.stop();
+Helicopter h1=new Helicopter();
+h1.start();
+
+h1.fly();
+h1.stop();
+
+}
+}

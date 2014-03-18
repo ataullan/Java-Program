@@ -1,0 +1,23 @@
+Java-Program
+============
+
+public class StaticDemo
+{
+  static int a;
+int b;
+public static void main(String a[])
+{
+  
+StaticDemo ob1=new StaticDemo();
+StaticDemo ob2=new StaticDemo();
+
+ob1.a=10;
+ob2.a=20;
+
+ob1.b=30;
+ob2.b=60;
+ System.out.println("ob1.a="+ob1.a);
+ System.out.println("ob2.a="+ob2.a);
+
+}
+} 

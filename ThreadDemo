@@ -1,0 +1,32 @@
+Java-Program
+============
+
+package ata_work;
+
+ class A extends Thread{
+	
+	public void run(){
+		
+		this.doSomething();
+	}
+	public void doSomething(){
+		
+		System.out.println("thred in class A");
+	}
+
+}
+
+public class ThreadDemo {
+	
+	public static void main(String a[]){
+		
+		System.out.println("before creating thread");
+		A obj=new A();
+		obj.start();
+		
+		System.out.println("after creating thread");
+	}
+	
+
+}
+
